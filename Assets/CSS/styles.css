@@ -4,6 +4,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 100vw;
+    font-family: 'Bona Nova', serif;;
 }
 
 #navbar{
@@ -12,6 +13,7 @@ body{
     height: 120px;
     width: 100%;
     right: 0;
+    z-index: 3;
 }
 
 #logo{
@@ -23,6 +25,30 @@ body{
     margin: auto;
     
 }
+
+#jumbotron{
+    position: relative;
+    height: 650px;
+}
+
+#jumbotron .img{
+    position: absolute;
+    width: 100%;
+    background: url("https://wallpaperaccess.com/full/1315769.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 0.8
+}
+
+
+
+
+
+
 
 
 
