@@ -23,25 +23,34 @@ body{
 
 #navbar-text{
     margin: auto;
+    font-weight: BOLD;
     
 }
 
 #jumbotron{
-    position: relative;
     height: 650px;
 }
 
 #jumbotron .img{
-    position: absolute;
     width: 100%;
     background: url("https://wallpaperaccess.com/full/1315769.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 650px;
-    overflow: hidden;
-    z-index: 1;
+    height: 640px;
     opacity: 0.8
+}
+
+.about{
+    position: absolute;
+    font-size: 23px;
+    margin-top: 40px;
+    text-indent: 20px;
+}
+
+#about-heading{
+    text-align: center;
+    font-size: 45px;
 }
 
 
