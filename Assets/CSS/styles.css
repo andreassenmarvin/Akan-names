@@ -42,9 +42,8 @@ body{
 }
 
 .about{
-    position: absolute;
     font-size: 23px;
-    margin-top: 40px;
+    margin-top: 60px;
     text-indent: 20px;
 }
 
@@ -53,6 +52,26 @@ body{
     font-size: 45px;
 }
 
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 60px;
+    transition: all ease-in-out.5s;
+    font-size: 18px;
+}
+
+#button:hover{
+    background: rgb(204, 204, 13);
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
 
 
 
@@ -76,6 +95,12 @@ body{
     #navbar-text{
         font-size: 29px;
     }
+    .about{
+        font-size: 17px;
+    }
+    #about-heading{
+        font-size: 35px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -91,6 +116,13 @@ body{
     #navbar-text{
         font-size: 34px;
     }
+    .about{
+        font-size: 19px;
+    }
+
+    #about-heading{
+        font-size: 37px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -107,6 +139,14 @@ body{
         font-size: 39px;
      
     }
+
+    .about{
+        font-size: 21px;
+    }
+
+    #about-heading{
+        font-size: 40px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
