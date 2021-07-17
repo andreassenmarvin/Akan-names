@@ -1,0 +1,105 @@
+body{
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm27-sasi-14-summer.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=301d1836b387208420966f133570ec5b");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vw;
+}
+
+#navbar{
+    position: fixed;
+    background-color: lightgrey;
+    height: 120px;
+    width: 100%;
+    right: 0;
+}
+
+#logo{
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#navbar-text{
+    margin: auto;
+    
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #navbar{
+        height: 60px;
+    }
+    
+    #logo{
+        width: 25px;
+    }
+    
+    #navbar-text{
+        font-size: 29px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #navbar{
+        height: 70px;
+    }
+    
+    #logo{
+        width: 29px;
+    }
+    
+    #navbar-text{
+        font-size: 34px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #navbar{
+        height: 80px;
+    }
+    
+    #logo{
+        width: 33px;
+    }
+    
+    #navbar-text{
+        font-size: 39px;
+     
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbar{
+        height: 100px;
+    }
+    
+    #logo{
+        width: 38px;
+    }
+    
+    #navbar-text{
+        font-size: 44px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #navbar{
+        height: 100px;
+    }
+    
+    #logo{
+        width: 40px;
+    }
+    
+    #navbar-text{
+        font-size: 47px;
+    }
+}
