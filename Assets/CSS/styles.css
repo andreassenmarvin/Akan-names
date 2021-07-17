@@ -1,9 +1,4 @@
 body{
-    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm27-sasi-14-summer.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=301d1836b387208420966f133570ec5b");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vw;
     font-family: 'Bona Nova', serif;;
 }
 
@@ -115,6 +110,9 @@ body{
     color: rgb(134, 134, 17);
 }
 
+#form{
+    display: none;
+}
 
 .form{
     position: fixed;
@@ -124,10 +122,11 @@ body{
     z-index: 3;
     width: 30%;
     height: 72%;
-    box-shadow: 2px 2px 7px;
+    box-shadow: 2px 2px 9px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: auto;
 }
 
 .form-title{
@@ -139,6 +138,7 @@ body{
     position: absolute;
     right: 0;
     font-size: 27px;
+    cursor: pointer;
 }
 
 .name{
@@ -358,7 +358,7 @@ body{
     border: 2px solid black;
     border-radius: 6px;
     height: 55px;
-    width: 220px;
+    width: 200px;
     transition: all ease-in-out.2s;
     font-size: 18px;
    }

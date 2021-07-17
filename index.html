@@ -21,9 +21,9 @@
             <h1 id="navbar-text" class="navbar-text">AKAN NAMES</h1>
         </nav>
     </div>
-
-    <form class="form container">
-        <i class="fa fa-times-circle times"></i>
+  <div>
+    <form class="form container" id= "form">
+        <i class="fa fa-times-circle times" onclick="closeForm()"></i>
         <h2 class="form-title">PERCEIVE YOUR AKAN NAME</h2>
         <br/>
         <div class="form-group container">
@@ -43,15 +43,14 @@
                 <option>Female</option>
               </select>
             <br/>
-            
             <button class="btn form-btn" value="submit">Submit</button>
         </div>
     </form>
-
     <div id="jumbotron" class="jumbotron jumbotron-fluid body">
         <div class="img">
         </div>
     </div>
+
 
     <div class="container-fluid about body">
         
@@ -77,7 +76,7 @@
     <br/>
     <div class="button body">
         <a>
-    <button class="btn" id="button" title="Click to discover your akan name">Discover my Akan Name</button>
+    <button class="btn" id="button" title="Click to discover your akan name" onclick="openForm()">Discover my Akan Name</button>
     </a>
     </div>
     <footer class="footer body">
@@ -93,6 +92,7 @@
             </div>
         </div>
     </footer>
-
+    <script src = "Assets/js/bootstrap.js"></script>
+    <script src="Assets/js/akan.js"></script>
 </body>
 </html>
