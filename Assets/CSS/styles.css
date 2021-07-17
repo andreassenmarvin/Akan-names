@@ -142,7 +142,6 @@ body{
 }
 
 .name{
-    width: 400px;
     height: 50px;
 }
 
@@ -150,7 +149,7 @@ body{
     border: 2px solid black;
     display: block;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 30px;
     width: 120px;
     height: 40px;
     transition: all ease-in-out .2s;
@@ -237,6 +236,36 @@ body{
 .f-icons{
     font-size: 17px;
   }
+
+  .form{
+      height: 55%;
+  }
+
+  .form-title{
+    font-size: 10px;
+    margin-top: 14px;
+}
+
+.times{
+    font-size: 17px;
+}
+
+.name{
+    height: 28px;
+}
+
+.labels{
+    font-size: 11px;
+}
+
+.form-btn{
+    display: block;
+    margin: auto;
+    margin-top: 6px;
+    width: 58px;
+    height: 21px;
+    font-size: 11px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -269,6 +298,36 @@ body{
     transition: all ease-in-out.2s;
     font-size: 16px;
    }
+
+   .form{
+       height: 60%;
+   }
+
+   .form-title{
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+.times{
+    font-size: 20px;
+}
+
+.name{
+    height: 32px;
+}
+
+.labels{
+    font-size: 15px;
+}
+
+.form-btn{
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+    width: 80px;
+    height: 27px;
+    font-size: 16px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -303,6 +362,35 @@ body{
     transition: all ease-in-out.2s;
     font-size: 18px;
    }
+
+   .form{
+       height: 62%;
+   }
+
+   .form-title{
+    font-size: 17px;
+    margin-top: 12px;
+}
+
+.times{
+    font-size: 22px;
+}
+
+.name{
+    height: 32px;
+}
+
+.labels{
+    font-size: 16px;
+}
+
+.form-btn{
+    display: block;
+    margin: auto;
+    width: 92px;
+    height: 31px;
+    font-size: 15px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -323,6 +411,31 @@ body{
     #navbar-text{
         font-size: 44px;
     }
+
+    .form{
+        height: 63%;
+    }
+    
+    .form-title{
+        font-size: 18px;
+        margin-top: 16px;
+    }
+    
+    .times{
+        font-size: 23px;
+    }
+    
+    .name{
+        height: 37px;
+    }
+    
+    .form-btn{
+        display: block;
+        margin: auto;
+        width: 100px;
+        height: 37px;
+        font-size: 18px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -331,11 +444,36 @@ body{
         height: 100px;
     }
     
+    .form{
+        height: 65%;
+    }
+
     #logo{
         width: 40px;
     }
     
     #navbar-text{
         font-size: 47px;
+    }
+    
+    .form-title{
+        font-size: 23px;
+        margin-top: 16px;
+    }
+    
+    .times{
+        font-size: 24px;
+    }
+    
+    .name{
+        height: 39px;
+    }
+    
+    .form-btn{
+        display: block;
+        margin: auto;
+        width: 100px;
+        height: 35px;
+        font-size: 18px;
     }
 }
