@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container body">
         <nav  id="navbar" class="navbar nav-expand-lg">
             <div class="navbar-brand">
                 <a href="index.html">
@@ -21,12 +21,36 @@
             <h1 id="navbar-text" class="navbar-text">AKAN NAMES</h1>
         </nav>
     </div>
-    <div id="jumbotron" class="jumbotron jumbotron-fluid">
+
+    <form class="form container">
+        <i class="fa fa-times-circle times"></i>
+        <h2 class="form-title">PERCEIVE YOUR AKAN NAME</h2>
+        <br/>
+        <div class="form-group container">
+            <label class="labels">Name*</label>
+            <input class="form-control name" type= "text">
+            <br/>
+            <br/>
+            <label class="labels">Birthday*</label>
+            <input class="form-control name" type="date" min=1901 max=2020>
+            <br/>
+            <br/>
+            <label class="labels">Gender*</label>
+            <br/>
+            <input class="radio" type="radio" name="gender"> Male
+             <br/>
+            <input class="radio" type="radio" name="gender"> Female
+            <br/>
+            <button class="btn form-btn" value="submit">Submit</button>
+        </div>
+    </form>
+
+    <div id="jumbotron" class="jumbotron jumbotron-fluid body">
         <div class="img">
         </div>
     </div>
 
-    <div class="container-fluid about">
+    <div class="container-fluid about body">
         
         <h2 id="about-heading">
             About.
@@ -48,12 +72,12 @@
         </p>
     </div>
     <br/>
-    <div class="button">
+    <div class="button body">
         <a>
-    <button id="button">Discover my Akan Name</button>
+    <button class="btn" id="button">Discover my Akan Name</button>
     </a>
     </div>
-    <footer class="footer">
+    <footer class="footer body">
         <div class="container" id="footer">
             <p id="copyright">&copyCopyright 2021,All rights reserved
             <br/>
@@ -66,5 +90,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>

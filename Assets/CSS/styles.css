@@ -32,13 +32,15 @@ body{
 }
 
 #jumbotron .img{
+    position: relative;
     width: 100%;
     background: url("https://wallpaperaccess.com/full/1315769.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 640px;
-    opacity: 0.8
+    opacity: 0.7;
+    top: -9px
 }
 
 .about{
@@ -114,9 +116,53 @@ body{
 }
 
 
+.form{
+    position: fixed;
+    left: 37%;
+    top: 15%;
+    background-color: white;
+    z-index: 3;
+    width: 30%;
+    height: 72%;
+    box-shadow: 2px 2px 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.form-title{
+    font-size: 25px;
+    margin-top: 15px;
+}
 
+.times{
+    position: absolute;
+    right: 0;
+    font-size: 27px;
+}
 
+.name{
+    width: 400px;
+    height: 50px;
+}
+
+.form-btn{
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 120px;
+    height: 40px;
+    transition: all ease-in-out .2s;
+    font-size: 20px;
+    line-height: 0.1;
+}
+
+.form-btn:hover{
+    background-color: rgb(204, 204, 13);
+    color: white;
+    border: 1px solid black;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -190,7 +236,7 @@ body{
 
 .f-icons{
     font-size: 17px;
-}
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
