@@ -5,6 +5,7 @@
 ![Website image](/Assets/s1.png)
 ![Website image](/Assets/s2.png)
 ![Website image](/Assets/s3.png)
+![Website image](/Assets/s4.png)
 ## **Setup/Installation Requirements**
 ### Inorder to get your Akan Name,you are required to:
 * Enter your name.
