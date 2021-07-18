@@ -162,8 +162,22 @@ body{
     display: none;
 }
 
+.d-birth{
+    display: flex;
+    justify-content: space-between;
+}
+
 #birthdate{
     position: relative;
+    width: 120px;
+}
+
+#birthyear{
+    width: 120px;
+}
+
+#birthmonth{
+    width: 120px;
 }
 
 #birth-ex{
