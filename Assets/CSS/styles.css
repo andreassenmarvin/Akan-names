@@ -110,10 +110,6 @@ body{
     color: gold;
 }
 
-#form{
-    display: none;
-}
-
 .form{
     position: fixed;
     left: 37%;
@@ -145,6 +141,43 @@ body{
     height: 50px;
 }
 
+#username{
+    position: relative;
+}
+
+#user-ex{
+    position: absolute;
+    color: #dc3545;;
+    right: 35px;
+    margin-top: -25px;
+    display: none;
+}
+
+#birthdate{
+    position: relative;
+}
+
+#birth-ex{
+    position: absolute;
+    color: #dc3545;;
+    right: 35px;
+    margin-top: -25px;
+    display: none;
+}
+
+#gender{
+    position: relative;
+}
+
+#gender-ex{
+    position: absolute;
+    color: #dc3545;;
+    right: 50px;
+    margin-top: -25px;
+    z-index: 2;
+    display: none;
+}
+
 .form-btn{
     border: 2px solid black;
     display: block;
@@ -159,7 +192,6 @@ body{
 
 .form-btn:hover{
     background-color: gold;
-    color: white;
     border: 1px solid black;
 }
 
@@ -248,7 +280,8 @@ body{
   }
 
   .form-title{
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: bold;
     margin-top: 14px;
 }
 
@@ -261,16 +294,16 @@ body{
 }
 
 .labels{
-    font-size: 11px;
+    font-size: 8px;
 }
 
 .form-btn{
     display: block;
     margin: auto;
     margin-top: 6px;
-    width: 58px;
+    width: 53px;
     height: 21px;
-    font-size: 11px;
+    font-size: 9px;
   }
 }
 
@@ -316,8 +349,9 @@ body{
    }
 
    .form-title{
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 18px;
+    font-weight: bold;
 }
 
 .times{
@@ -329,16 +363,16 @@ body{
 }
 
 .labels{
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .form-btn{
     display: block;
     margin: auto;
     margin-top: 3px;
-    width: 80px;
+    width: 65px;
     height: 27px;
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -386,8 +420,9 @@ body{
    }
 
    .form-title{
-    font-size: 17px;
+    font-size: 14px;
     margin-top: 12px;
+    font-weight: bold;
 }
 
 .times{
@@ -399,14 +434,14 @@ body{
 }
 
 .labels{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .form-btn{
     display: block;
     margin: auto;
-    width: 92px;
-    height: 31px;
+    width: 78px;
+    height: 27px;
     font-size: 15px;
   }
 }
@@ -437,6 +472,7 @@ body{
     .form-title{
         font-size: 18px;
         margin-top: 16px;
+        font-weight: bold;
     }
     
     .times{
@@ -477,6 +513,7 @@ body{
     .form-title{
         font-size: 23px;
         margin-top: 16px;
+        font-weight: bold;
     }
     
     .times{

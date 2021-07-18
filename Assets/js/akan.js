@@ -1,9 +1,12 @@
-function openForm(){
-   var a = document.getElementById("form");
-   a.style.display = "flex";
-}
+function validate(){
+    var a = document.getElementById("username").value;
+    var b = document.getElementById("birthdate").value;
+    var c = document.getElementById("gender").value;
+    var d = document.getElementById("user-ex");
+    var e = document.getElementById("birth-ex");
+    var f = document.getElementById("gender-ex");
 
-function closeForm(){
-    var a = document.getElementById("form");
-    a.style.display = "none";
+    if (a === "" || a === null){
+        d.style.display = "block";
+    }
 }

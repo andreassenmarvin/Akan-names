@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+</head>
+<body>
+    <form class="form container" id= "form">
+        <h2 class="form-title">PERCEIVE YOUR AKAN NAME</h2>
+        <br/>
+        <div class="form-group container">
+            <label class="labels">Name*</label>
+            <input id="username" class="form-control name" type= "text">
+            <i id="user-ex" class="fa fa-exclamation"></i>
+            <br/>
+            <br/>
+            <label class="labels">Birthday*</label>
+            <input id="birthdate" class="form-control name" type="date" min=1901 max=2020>
+            <i id="birth-ex" class="fa fa-exclamation"></i>
+            <br/>
+            <br/>
+            <label class="labels">Gender*</label>
+            <br/>
+            <select id="gender" class="form-control name">
+                <option selected disabled>Select</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+              <i id="gender-ex" class="fa fa-exclamation"></i>
+            <br/>
+            <button id="f-submit" class="btn form-btn"  onclick="validate()">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
