@@ -375,6 +375,10 @@ body{
        height: 60%;
    }
 
+   #birthyear{
+       width: 55px;
+   }
+
    .form-title{
     font-size: 10px;
     margin-top: 18px;
@@ -453,12 +457,17 @@ body{
     font-weight: bold;
   }
 
+
   .form-footer{
     top: 135px;
   }
 
 .name{
     height: 32px;
+  }
+
+  #birthyear{
+      width: 65px;
   }
 
 .labels{

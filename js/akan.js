@@ -1,6 +1,13 @@
 var a = document.getElementById("username").value;
-var b = document.getElementById("birthdate").value;
+var aa = document.getElementById("username");
+var bdate = document.getElementById("birthdate").value;
+var bDate = document.getElementById("birthdate");
+var bmonth = document.getElementById("birthmonth").value;
+var bMonth = document.getElementById("birthmonth");
+var byear = document.getElementById("birthyear").value;
+var bYear = document.getElementById("birthyear");
 var c = document.getElementById("gender").value;
+var cgender = document.getElementById("gender");
 var d = document.getElementById("user-ex");
 var e = document.getElementById("birth-ex");
 var f = document.getElementById("gender-ex");
@@ -94,54 +101,28 @@ function getmyDay(){
   
 
 
- // Make submit button transparent if inputs are empty
-
-function check(){
-   
-    if (a === "" || a === null){
-        g.style.cursor = "not-allowed";
-        g.style.background = "transparent";
-        return false;
-    }
-
-    else if(b === "" || b === null){
-        g.style.cursor = "not-allowed";
-        g.style.background = "transparent";
-        return false;
-    }
-
-    else if(c === ""){
-        g.style.cursor = "not-allowed";
-        g.style.background = "transparent";
-        return false;
-    }
-
-    else{
-        g.style.cursor = "pointer";
-        background = "gold";
-        return true;
-    }
-}
-
-
-
-
 // validate form
 
 
 function validate(){
 
-    if (a === null || a === "" && b === null || b === "" && c === null || c === ""){
+    if (a === null || a === "" && bdate === null || bdate === "" && c === null || c === ""){
         d.style.display = "block";
         e.style.display = "block";
         f.style.display = "block";
+        aa.style.borderColor = "red";
+        bDate.style.borderColor = "red";
+        bMonth.style.borderColor = "red";
+        bYear.style.borderColor = "red";
+        cgender.style.borderColor = "red";
         return false;
     }
 
-    else if (a == "" && b == " "  && c == " "){
+    else if (a == "" && bdate != null  && c != null ){
         d.style.display = "block";
         e.style.display = "none";
         f.style.display = "none";
+        cgender.style.borderColor = "black";
         return false;
     }
 
@@ -150,7 +131,7 @@ function validate(){
         return false;
     }
 
-    else if (b === ""){
+    else if (bdate === ""){
         e.style.display = "block"
         return false;
     }
@@ -161,7 +142,10 @@ function validate(){
     }
 
     else{
-        alert("123")
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        return true;
     }
   
 }
