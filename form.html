@@ -10,8 +10,18 @@
     <link rel="stylesheet" type="text/css" href="Assets/CSS/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
 </head>
-<body>
-    <form class="form container" id= "form">
+<body class="form-body">
+    <div class="container body">
+        <nav  id="navbar" class="navbar form-nav nav-expand-lg">
+            <div class="navbar-brand">
+                <a href="index.html">
+                <img src="Assets/logo.jpg" id="logo">
+                </a>
+            </div>
+            <h1 id="navbar-text" class="navbar-text">AKAN NAMES</h1>
+        </nav>
+    </div>
+    <form class="form container" id= "form" onsubmit="validate()" oninput="check()">
         <h2 class="form-title">PERCEIVE YOUR AKAN NAME</h2>
         <br/>
         <div class="form-group container">
@@ -21,21 +31,36 @@
             <br/>
             <br/>
             <label class="labels">Birthday*</label>
-            <input id="birthdate" class="form-control name" type="date" min=1901 max=2020>
+            <input id="birthdate" class="form-control name" type="date" min="12/01/1901" max="07/21/2021">
             <i id="birth-ex" class="fa fa-exclamation"></i>
             <br/>
             <br/>
             <label class="labels">Gender*</label>
             <br/>
             <select id="gender" class="form-control name">
-                <option selected disabled>Select</option>
+                <option selected disabled value="">Select</option>
                 <option>Male</option>
                 <option>Female</option>
               </select>
               <i id="gender-ex" class="fa fa-exclamation"></i>
             <br/>
-            <button id="f-submit" class="btn form-btn"  onclick="validate()">Submit</button>
+            <button id="f-submit" class="btn form-btn" onmouseover="check()">Submit</button>
         </div>
     </form>
+    <footer class="footer form-footer body">
+        <div class="container" id="footer">
+            <p id="copyright">&copyCopyright 2021,All rights reserved
+            <br/>
+           <span id="copy"> Marvin Macharia </span>
+            </p>
+            <div class="icons">
+           <a class="f-icons" href="https://web.facebook.com/marvin.macharia.798/" target="_blank"> <i class="fab fa-facebook"></i> </a>
+           <a class="f-icons" href="https://www.instagram.com/andreassen_marvin/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+            <a class="f-icons" href="https://wa.me/0759082650" target="_blank"> <i class="fab fa-whatsapp"></i> </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Assets/js/akan.js"></script>
 </body>
 </html>

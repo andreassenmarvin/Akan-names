@@ -107,13 +107,21 @@ body{
 }
 
 .f-icons:hover{
-    color: gold;
+    color: black;
 }
 
+
+.form-body{
+    background: url("https://imagesvc.meredithcorp.io/v3/jumpstartpure/image?url=https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/6b9f0580-eaf3-4a82-af26-f9a207b8831e/7dd4b1a3-d975-4db9-8eaf-a28654aa488f/1280x720/match/image.jpg&w=1280&h=720&q=90&c=cc");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .form{
-    position: fixed;
-    left: 37%;
-    top: 15%;
+    position: relative;
+    top: 130px;
     background-color: white;
     z-index: 3;
     width: 30%;
@@ -125,17 +133,17 @@ body{
     overflow: auto;
 }
 
+.form-footer{
+    position: relative;
+    top: 100px;
+    height: 150px;
+}
+
 .form-title{
     font-size: 25px;
     margin-top: 15px;
 }
 
-.times{
-    position: absolute;
-    right: 0;
-    font-size: 27px;
-    cursor: pointer;
-}
 
 .name{
     height: 50px;
@@ -177,6 +185,7 @@ body{
     z-index: 2;
     display: none;
 }
+
 
 .form-btn{
     border: 2px solid black;
@@ -274,6 +283,13 @@ body{
 .f-icons{
     font-size: 17px;
   }
+  
+
+  .form-footer{
+    height: 150px;
+    top: 155px;
+}
+
 
   .form{
       height: 55%;
@@ -283,10 +299,6 @@ body{
     font-size: 8px;
     font-weight: bold;
     margin-top: 14px;
-}
-
-.times{
-    font-size: 17px;
 }
 
 .name{
@@ -352,21 +364,22 @@ body{
     font-size: 10px;
     margin-top: 18px;
     font-weight: bold;
-}
+   }
 
-.times{
-    font-size: 20px;
-}
+   .form-footer{
+    top: 131px;
+  }
 
-.name{
+
+   .name{
     height: 32px;
 }
 
-.labels{
+   .labels{
     font-size: 10px;
 }
 
-.form-btn{
+   .form-btn{
     display: block;
     margin: auto;
     margin-top: 3px;
@@ -423,19 +436,19 @@ body{
     font-size: 14px;
     margin-top: 12px;
     font-weight: bold;
-}
+  }
 
-.times{
-    font-size: 22px;
-}
+  .form-footer{
+    top: 135px;
+  }
 
 .name{
     height: 32px;
-}
+  }
 
 .labels{
     font-size: 14px;
-}
+  }
 
 .form-btn{
     display: block;
@@ -474,11 +487,7 @@ body{
         margin-top: 16px;
         font-weight: bold;
     }
-    
-    .times{
-        font-size: 23px;
-    }
-    
+
     .name{
         height: 37px;
     }
@@ -514,10 +523,6 @@ body{
         font-size: 23px;
         margin-top: 16px;
         font-weight: bold;
-    }
-    
-    .times{
-        font-size: 24px;
     }
     
     .name{
