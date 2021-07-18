@@ -147,6 +147,7 @@ body{
 
 .name{
     height: 50px;
+    border: 1px solid black;
 }
 
 #username{
@@ -155,7 +156,7 @@ body{
 
 #user-ex{
     position: absolute;
-    color: #dc3545;;
+    color: #dc3545;
     right: 35px;
     margin-top: -25px;
     display: none;

@@ -21,7 +21,7 @@
             <h1 id="navbar-text" class="navbar-text">AKAN NAMES</h1>
         </nav>
     </div>
-    <form class="form container" id= "form" onsubmit="validate()" oninput="check()">
+    <form class="form container" id= "form"  onforminput="check()">
         <h2 class="form-title">PERCEIVE YOUR AKAN NAME</h2>
         <br/>
         <div class="form-group container">
@@ -44,7 +44,7 @@
               </select>
               <i id="gender-ex" class="fa fa-exclamation"></i>
             <br/>
-            <button id="f-submit" class="btn form-btn" onmouseover="check()">Submit</button>
+            <button type="submit" id="f-submit" class="btn form-btn" onclick="validate()" onmouseover="check()">Submit</button>
         </div>
     </form>
     <footer class="footer form-footer body">
